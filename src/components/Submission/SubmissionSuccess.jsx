@@ -13,6 +13,8 @@ export const SubmissionSuccess = () => {
                 <Card.Title as="h1">Success!</Card.Title>
                 <Card.Text>
                     Thank you, {formData?.username}! Your message has been sent.<br />
+                    <br />
+                    <strong>Username:</strong> {formData?.username}<br />
                     <strong>Email:</strong> {formData?.email}<br />
                     <strong>Message:</strong> {formData?.message}
                 </Card.Text>
