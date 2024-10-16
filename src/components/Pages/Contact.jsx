@@ -4,6 +4,8 @@ import './Pages.css';
 import { Card, Button, Form } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
 
+import logo from '../../logo.svg';
+
 export const Contact = () => {
   
   const [formData, setFormData] = useState({
@@ -56,7 +58,6 @@ export const Contact = () => {
           <br />
           <Button variant="primary" type="submit">Submit</Button>
         </Form>
-
         </Card.Text>
       </Card.Body>
     </Card>

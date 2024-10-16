@@ -2,6 +2,8 @@
     margin: 50px;
     height: auto;
     background-color: #444; 
+    display : flex;
+    position: relative;
 }
 
 .card-header {
@@ -54,4 +56,4 @@ blockquote footer {
     background-color: #444; 
     color: #f0f0f0;
 }
-
+  
