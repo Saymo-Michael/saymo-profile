@@ -26,7 +26,6 @@ export const About = () => {
         </section>
         <br />
         </Card.Text>
-        <Button variant="primary">Facebook Link</Button>
       </Card.Body>
     </Card>
     </>
