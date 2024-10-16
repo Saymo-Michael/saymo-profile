@@ -4,7 +4,6 @@ import { Card, Button, Form } from 'react-bootstrap';
 
 export const Contact = () => {
 
-
   return (
     <>
     <Card>
@@ -23,7 +22,7 @@ export const Contact = () => {
             <Form.Control type="email" placeholder="name@example.com" />
           </Form.Group>
           <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-            <Form.Label>Comment</Form.Label>
+            <Form.Label>Message</Form.Label>
             <Form.Control as="textarea" rows={3} placeholder="..."/>
           </Form.Group>
         </Form>
